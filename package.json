@@ -1,7 +1,7 @@
 {
-  "name": "angular-node-web",
-  "version": "1.0.0",
-  "description": "Angular-Node.js web app",
+  "name": "Home Over Web",
+  "version": "0.0.1",
+  "description": "Home automation project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,12 +9,17 @@
     {
       "name": "Daniel Abrao",
       "email": "danielpaladar@gmail.com"
+    },
+    {
+      "name": "Felipe Galvao",
+      "email": "felipegalvao1990@hotmail.com"
     }
   ],
   "license": "MIT",
   "keywords": [
-    "scaffold",
-    "web"
+    "automation",
+    "iot",
+    "tcc"
   ],
   "dependencies": {
     "angular": "^1.5.3",
@@ -29,7 +34,6 @@
     "express": "^4.12.4",
     "http": "0.0.0",
     "https": "^1.0.0",
-    "onoff": "^1.0.4",
     "passport": "^0.3.2",
     "path": "^0.12.7",
     "request": "^2.55.0"
@@ -49,6 +53,6 @@
     "gulp-util": "^3.0.7"
   },
   "engines": {
-    "node": "4.2.x"
+    "node": "4.4.x"
   }
 }

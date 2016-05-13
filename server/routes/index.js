@@ -2,9 +2,12 @@
 (function () {
     'use strict';
     var db = require('../config/db.js').init,
-        starterRoutes = require('./partials/starter.js');
+        starterRoutes = require('./partials/starter.js'),
+        loginRoutes = require('./partials/login.js');
+
     module.exports = function (app) {
         starterRoutes(app);
+        loginRoutes(app);
 
         app.get('/', function (req, res) {
             res.render('index.html');
